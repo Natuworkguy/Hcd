@@ -1,0 +1,26 @@
+for file in find /*
+do
+echo detected: $file in directory: /
+done
+sleep 1 
+for file1 in find /*/*
+do
+echo detected: $file1
+done
+sleep 1
+for file2 in find /*/*/*
+do
+echo detected: $file2
+done
+for file3 in find /*/*/*/*
+do
+echo detected: $file3
+#edit here
+sleep 1
+exit 0
+exit
+exit $file
+exit
+exit
+exit $file1
+done
